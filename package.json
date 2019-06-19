@@ -1,0 +1,19 @@
+{
+  "name": "plugin-compressorjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c && rm -rf release && mkdir release && zip -r release/plugin-compressorjs.zip ./index.js ./lib/**.*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "compressorjs": "^1.0.5"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.3"
+  }
+}
