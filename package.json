@@ -6,8 +6,8 @@
     "build": "rollup -c && rm -rf release && mkdir release && zip -r release/plugin-compressorjs.zip ./index.js ./lib/**.*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Margox",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "compressorjs": "^1.0.5"
